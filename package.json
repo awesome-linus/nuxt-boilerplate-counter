@@ -20,9 +20,11 @@
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.3.8",
     "@nuxtjs/axios": "^5.9.5",
+    "@storybook/addon-viewport": "^5.3.17",
     "core-js": "2.6.9",
     "cross-env": "^7.0.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "storybook-addon-vue-info": "^1.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
