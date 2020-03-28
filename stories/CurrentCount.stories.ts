@@ -1,6 +1,5 @@
 import { storiesOf } from '@storybook/vue';
-// @ts-ignore
-import CurrentCount from '@/components/CurrentCount/index.vue';
+import CurrentCount from '../src/components/CurrentCount/index';
 
 storiesOf('CurrentCount', module)
   .add('should be displayed count plus 10 value', () => ({

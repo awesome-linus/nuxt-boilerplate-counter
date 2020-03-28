@@ -1,6 +1,5 @@
 import { storiesOf } from '@storybook/vue';
-// @ts-ignore
-import IncrementButton from '@/components/IncrementButton/index.vue';
+import IncrementButton from '../src/components/IncrementButton/index';
 
 storiesOf('IncrementButton', module).add(
   'should increment current value(But Mocked alert)',
